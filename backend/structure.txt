@@ -1,0 +1,6 @@
+import exprss > call express in app > { const app = express();}
+creat .env file(which is use to keep secret information like port , database endpoint , auth tokens etc)
+creat port in .env
+include port in index.js file 
+
+

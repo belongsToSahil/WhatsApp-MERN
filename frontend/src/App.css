@@ -1,0 +1,46 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+*{
+    background-color: #111b21;
+}
+.sidebar_container{
+    border-right: 0.4px solid #1f2c33;
+}
+.sidebar_profile{
+    font-size: 2.5rem;
+    color: white;
+    opacity: 40%;
+}
+.sidebar_icons{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    opacity: 40%;
+}
+.sidebar_icon{
+
+    
+}
+.search_icon{
+    font-size: 1.5rem;
+}
+.search_box{
+    font-size: 0.8rem;
+    color: white;
+    border: none;
+    outline-width: 0;
+    opacity: 80%;
+}
+.archive_icon{
+font-size: 1.5rem;
+color: white;
+opacity: 40%;
+}
+.sidebar_chat{
+    border-bottom:0.4px solid white;   
+}
+.sidebar_chat_profile{
+    font-size: 3rem;
+    color: white;
+    opacity: 40%;
+}
