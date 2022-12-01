@@ -44,3 +44,42 @@ opacity: 40%;
     color: white;
     opacity: 40%;
 }
+.chats_icons{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    opacity: 40%;
+    background-color: transparent;
+
+}
+
+
+/* .........chats styling from here....... */
+.chats_icons{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    opacity: 40%;
+    background-color: transparent;
+
+}
+.chat_box{
+    font-size: 0.8rem;
+    color: white;
+    border: none;
+    outline-width: 0;
+    opacity: 80%;
+}
+
+.bg_chats{
+    background-image: url("bg.png");
+}
+
+.received_chats{
+    font-size: 0.8rem;
+    text-align: center;
+}
+.send_chats{
+    font-size: 0.8rem;
+    text-align: center;
+}
