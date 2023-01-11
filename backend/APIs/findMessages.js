@@ -8,7 +8,7 @@ const findMessages = expressAsyncHandler( async(req, res) => {
             res.status(500).send(err);
         }
         else{
-            res.status(201).send(`The messages are : \n ${data}`);
+            res.status(201).send(data);
             console.log("Your messages Successfully sended")
         }
     });

@@ -6,6 +6,17 @@ import { BsEmojiLaughing } from "react-icons/bs";
 import { IoIosAttach } from "react-icons/io";
 import { FaMicrophoneAlt } from "react-icons/fa";
 
+const Chat = (props) => {
+  return (
+    <>
+      <div className="received_chats bg-transparent h-[7vh] flex items-center ">
+        <span className="bg-[#1f2c33] text-white mx-[2vw] py-[0.6vh] px-[0.8vw] rounded-[0.5rem] max-w-[50vw]">
+          {props.message}
+        </span>
+      </div>
+    </>
+  );
+};
 
 const Chats = ({ messages }) => {
   return (
@@ -34,11 +45,14 @@ const Chats = ({ messages }) => {
           alt="No image found"
           className="w-[69.9vw] h-[77vh]"
         /> */}
-        <div className="received_chats bg-transparent h-[7vh] flex items-center ">
+        {/* <div className="received_chats bg-transparent h-[7vh] flex items-center ">
           <span className="bg-[#1f2c33] text-white mx-[2vw] py-[0.6vh] px-[0.8vw] rounded-[0.5rem] max-w-[50vw]">
-          This is Received dummy chat
+          This is dummy message
           </span>
-        </div>
+        </div> */}
+        {messages.map((element, index) => {
+              return <Chat index={index._id} message={element.message} />;
+            })}
         <div className="send_chats bg-transparent h-[7vh] flex items-center justify-end ">
           <span className="bg-[#1f2c33] text-white mx-[2vw] py-[0.6vh] px-[0.8vw] rounded-[0.5rem]">
             This is Send Dummy Chat

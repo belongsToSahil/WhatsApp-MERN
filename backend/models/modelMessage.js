@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const messageSchema = mongoose.Schema({
-name : String,
+message : String,
 });
 
 const message = mongoose.model("message" , messageSchema , "messages")
